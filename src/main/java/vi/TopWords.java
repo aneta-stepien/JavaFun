@@ -9,7 +9,8 @@ public class TopWords {
 
     /**
      *  Returns the most frequent words in the given sentence (space separated).
-     *  @param numberOfTopFrequencies defines how many top frequencies should be listed (for each top frequency there can be one or more words).
+     *  @param numberOfTopFrequencies defines how many top frequencies should be listed
+     *                                (for each top frequency there can be one or more words).
      *  */
     public static Set<String> getMostFrequent(String sentence, int numberOfTopFrequencies) {
         List<String> words = prepareSortedWordList(sentence);
